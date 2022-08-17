@@ -1,0 +1,36 @@
+ES5 vs ES6 => ECMAscript
+var/let/const
+destructuring 
+template literals
+spread operator 
+rest operator 
+
+var=> it is a global scope / function scope, oldest keyword to declare a variable.
+let=> it is a block scope / cant be redeclared / ES6/ improved version of var
+* we cannot redeclare outside line by line
+* we cant redeclare inside block mulitple times
+
+const=> it is also a block scope
+it cant be redeclared or reassigned
+
+Spread operator: denotes aS (...)
+
+=>is used to merge arrays and objects
+=> split a string or array using spaces.
+=> for doing arithmetric operations.
+=> to overwrite some values in objects.
+=> anywhere in the function.
+
+Rest operator: syntax(...)
+=> it allows us to represent an indefinite number of arguments as an array.
+=> a function can be called as any number of arguments.
+=> it must be a last parameter of the function.
+
+Destructuring:
+js expression that allows unplug the values from arrays and objects.
+datas can be extracted 
+if we have n number of datas , but i want extract some particular data we can use this.
+ 
+template literals:
+=> alternative for concatination
+=> `${}`=> syntx

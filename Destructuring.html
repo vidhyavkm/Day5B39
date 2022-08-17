@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //array destru
+
+        const array = ["red","yellow","blue","green","pink"];
+
+        const [first,second]= array;
+
+        console.log(first,second);
+
+
+//ex:2=> filter only the value maths using destructuring.
+
+let subjects = ["tamil", "english",["maths,science"],"GK"]
+
+const [a,b,c,d] = subjects;
+
+console.log(c);
+
+//object destructuring:
+
+let user1 ={
+            name: "John",
+            Age:25,
+            dept:"FSD",
+            Address:{
+                no:3,
+                street: "patel road",
+                place:"chennai-12",
+            },
+        };
+
+        let user2 ={
+            name: "Jean",
+            Age:35,
+            dept:"FSd2",
+            Address:{
+                no:31,
+                street: "parth road",
+                place:"chennai-22",
+            },
+        };
+
+        const { Address } = user2;
+
+        const { street } = Address;
+
+        console.log(street);
+    </script>
+</body>
+</html>

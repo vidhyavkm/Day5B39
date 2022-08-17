@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //ex:1
+
+        let arr = [1,2,3];
+        let arr1 = [1,2,3];
+
+        array = [...arr,...arr1]
+        console.log(array)
+
+        //ex:2
+
+        var str= ["hello", "guvi"];
+        console.log(str);
+        console.log(...str);
+
+        //ex:3
+
+        let S1= "guvi";
+        console.log(...S1);
+
+        //ex:4
+        let ARR = [1,2,3,-1];
+        console.log(Math.min(...ARR));
+
+        //ex:5
+
+        const user1 ={
+            name: "John",
+            Age:25,
+        };
+
+        const user2 ={
+            name: "Jean",
+            Age:35,
+            location:"Chennai",
+            Work:"guvi",
+        };
+
+        const mergeusers = {...user1, ...user2};
+        console.log(mergeusers);
+
+    </script>
+</body>
+</html>
